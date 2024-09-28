@@ -1,0 +1,1 @@
+SELECT * FROM integrador.ing_internado;
