@@ -12,7 +12,8 @@ body {
 /* styles.css */
 .centrado {
   text-align: center;
-  font-size: 40 px; /* Tamaño de fuente más grande */
+  font-size: 40 px;
+  /* Tamaño de fuente más grande */
 }
 
 
@@ -22,21 +23,30 @@ body {
   text-align: center;
   margin: 0 auto;
 
-  
+
 
   nav {
-    background-color: darkgreen;
-    padding: 10px;
+     background-color: darkgreen;
+    padding: 0px;
     text-align: center;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    /* justify-content: center; */
+
   }
 
-  nav a { 
-    color: white; margin: 0 40px; /* Separación de 20px entre los enlaces */ 
-    text-decoration: none; 
-    display: inline-block; }
+  nav a {
+    color: white;
+    margin: 0 20px;
+    /* Separación de 20px entre los enlaces */
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 20px;
+  }
+
+  .navbar{
+    margin-right: 30px;
+  }
 
   main {
     padding: 20px;

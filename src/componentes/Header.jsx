@@ -21,7 +21,7 @@ export default function Header  () {
   };
 
   return (
-    <nav>
+    <nav classe="centrado">
       <a href="#ingresos">Ingresos</a>
       <a href="#pacientes">Pacientes</a>    
       <button onClick={toggleListado}>Médicos</button>
